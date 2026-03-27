@@ -1,11 +1,16 @@
 # 🐸 Fast Console Log
 
-Quick console log shortcut for your JavaScript/TypeScript
+Simple console log shortcut for your JavaScript/TypeScript
 
-## Features
+## Usage
 
+1. Place cursor on a variable.
 
+2. Use the shortcut:
+- Windows/Linux: `Ctrl` `Alt` `l` 
+- Mac: `Ctrl` `Option` `l` 
 
+=> `console.log("🐸 count:", count);`
 
 ## Requirements
 
