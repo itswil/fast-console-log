@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     if (!isSupportedLanguageId(editor.document.languageId) &&
       !isSupportedFileExtension(path.extname(editor.document.fileName).toLowerCase())) {
-      vscode.window.showInformationMessage("Fast Console Log only supports JS and TS files.");
+      vscode.window.showInformationMessage("Fast Console Log: only JS and TS files are supported.");
       return;
     }
 
@@ -31,7 +31,7 @@ export function activate(context: vscode.ExtensionContext) {
         if (variableRegex.test(selectedText)) {
           insertConsoleLog(editor, selectedText);
         } else {
-          vscode.window.showWarningMessage(`"${selectedText}" cannot be logged.`);
+          vscode.window.showWarningMessage(`Fast Console Log: this text selection cannot be logged.`);
         }
       }
     } else {
@@ -47,7 +47,7 @@ export function activate(context: vscode.ExtensionContext) {
         // Case 2.2: Cursor on empty line
         insertConsoleLog(editor, "");
       } else {
-        vscode.window.showWarningMessage("No word or selection found.");
+        vscode.window.showWarningMessage("Fast Console Log: No word or selection found.");
       }
     }
 
