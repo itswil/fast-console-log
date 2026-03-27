@@ -3,6 +3,7 @@
   "displayName": "Fast Console Log",
   "description": "Quick console log shortcut for your JavaScript/TypeScript",
   "version": "1.0.0",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.110.0"
   },
