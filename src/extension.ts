@@ -13,7 +13,8 @@ export function activate(context: vscode.ExtensionContext) {
       return;
     }
 
-    if (!isSupportedLanguageId(editor.document.languageId) && !isSupportedFileExtension(path.extname(editor.document.fileName))) {
+    if (!isSupportedLanguageId(editor.document.languageId) &&
+      !isSupportedFileExtension(path.extname(editor.document.fileName).toLowerCase())) {
       vscode.window.showInformationMessage("Fast Console Log only supports JS and TS files.");
       return;
     }
