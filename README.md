@@ -1,6 +1,6 @@
 # 🐸 Fast Console Log
 
-Simple console log shortcut for your JavaScript/TypeScript
+A simple console log shortcut for your JavaScript/TypeScript. Ctrl Alt L is all you need!
 
 ## Usage
 
@@ -33,4 +33,9 @@ Fast Console Log only works with the following file types:
 
 Initial release of Fast Console Log
 
+## FAQs
+
+### Why is there a frog?
+
+That's the Fast Console Log frog 🐸. 
 
