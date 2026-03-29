@@ -3,6 +3,7 @@
   "displayName": "Simple Console Log",
   "description": "The simplest console log shortcut for your JavaScript/TypeScript",
   "version": "1.0.0",
+  "publisher": "itswil",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.110.0"
