@@ -1,6 +1,6 @@
 {
   "name": "simple-console-log-frog",
-  "displayName": "Simple Console Log",
+  "displayName": "Simple Console Log for JS/TS",
   "description": "The simplest console log shortcut for your JavaScript/TypeScript",
   "version": "1.0.0",
   "publisher": "itswil",
