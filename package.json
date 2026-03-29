@@ -1,5 +1,5 @@
 {
-  "name": "simple-console-log",
+  "name": "simple-console-logger",
   "displayName": "Simple Console Log",
   "description": "The simplest console log shortcut for your JavaScript/TypeScript",
   "version": "1.0.0",
