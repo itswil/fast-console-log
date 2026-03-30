@@ -31,12 +31,6 @@ Simple Console Log only works with the following file types:
   - `.svelte`
   - `.vue`
 
-## Release Notes
-
-### 1.0.0
-
-Initial release of Simple Console Log
-
 ## FAQs
 
 ### Why is there a frog?
