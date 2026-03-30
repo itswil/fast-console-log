@@ -2,7 +2,7 @@
   "name": "simple-console-log-frog",
   "displayName": "Simple Console Log for JS/TS",
   "description": "The simplest console log shortcut for your JavaScript/TypeScript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "itswil",
   "icon": "images/icon.png",
   "engines": {
